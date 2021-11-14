@@ -1,0 +1,4 @@
+$resourceGroupName = Read-Host -Prompt 'Input the resource group name'
+$location = Read-Host -Prompt 'Input the resource group location'
+
+New-AzResourceGroup -Name $resourceGroupName -Location $location
