@@ -1,0 +1,9 @@
+New-AzVm `
+    -ResourceGroupName "ps1ResourceGroup" `
+    -Name "ps1vm01" `
+    -Location "East US" `
+    -VirtualNetworkName "ps1Vnet" `
+    -SubnetName "ps1Subnet" `
+    -SecurityGroupName "ps1NetworkSecurityGroup" `
+    -PublicIpAddressName "myPublicIpAddress" `
+    -OpenPorts 80,3389
