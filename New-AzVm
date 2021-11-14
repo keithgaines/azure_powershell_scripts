@@ -1,3 +1,5 @@
+#Creates new virtual machine in Azure with given parameters#
+
 New-AzVm `
     -ResourceGroupName "ps1ResourceGroup" `
     -Name "ps1vm01" `
