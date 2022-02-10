@@ -1,3 +1,7 @@
+# ps az module install
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
+
 
 # creates new resource group with user provided paramaters stored in group name and location variables
 $resourceGroupName = Read-Host -Prompt 'Input the resource group name'
